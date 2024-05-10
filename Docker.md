@@ -10,3 +10,7 @@ docker ps -a
 ```sh
 docker rm -f (docker ps -aq)
 ```
+### Logs of a Node in RabbitMq
+```sh
+docker logs -f "Node-Name"
+```
